@@ -1,0 +1,4 @@
+- hosts: ngx
+  remote_user: root
+  roles:
+   - role: nginx
